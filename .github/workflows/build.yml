@@ -34,6 +34,7 @@ jobs:
           --include-data-file=app.py=app.py `
           --include-data-file=image_01.png=image_01.png `
           --include-data-file=image_02.png=image_02.png `
+          --assume-yes-for-downloads `
           main.py
 
     - name: Upload Executable Artifact
